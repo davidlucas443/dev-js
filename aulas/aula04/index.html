@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Classificação de Idade e Nota</title>
+</head>
+<body>
+    <h1>Verifique o console e os alertas</h1>
+
+    <script>
+
+        let idade = Number(prompt("Digite sua idade:"));
+
+        if (idade <= 12) {
+            alert("Você é Criança");
+        } else if (idade <= 17) {
+            alert("Você é Adolescente");
+        } else if (idade <= 59) {
+            alert("Você é Adulto");
+        } else {
+            alert("Você é Idoso");
+        }
+
+        let nota = Number(prompt("Digite sua nota:"));
+
+        if (nota >= 9) {
+            alert("Excelente");
+        } else if (nota >= 7) {
+            alert("Bom");
+        } else if (nota >= 5) {
+            alert("Regular");
+        } else {
+            alert("Reprovado");
+        }
+        
+    </script>
+</body>
+</html>

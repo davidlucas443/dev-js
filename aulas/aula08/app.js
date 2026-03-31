@@ -1,4 +1,3 @@
-// Objeto pessoa
 const pessoa = {
   nome: "Maria",
   idade: 25,

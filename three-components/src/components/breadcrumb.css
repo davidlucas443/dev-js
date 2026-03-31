@@ -1,0 +1,27 @@
+.breadcrumb {
+  display: flex;
+  gap: 8px;
+  background: #1e293b;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.breadcrumb span {
+  cursor: pointer;
+  color: #38bdf8;
+}
+
+.breadcrumb span::after {
+  content: ">";
+  margin: 0 6px;
+  color: white;
+}
+
+.breadcrumb span:last-child {
+  color: #fff;
+  font-weight: bold;
+}
+
+.breadcrumb span:last-child::after {
+  content: "";
+}

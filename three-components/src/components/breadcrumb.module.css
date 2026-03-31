@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 8px;
+  background: #134e4a;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.item {
+  color: #5eead4;
+  cursor: pointer;
+}
+
+.item::after {
+  content: ">";
+  margin: 0 6px;
+  color: white;
+}
+
+.item:last-child {
+  color: white;
+  font-weight: bold;
+}
+
+.item:last-child::after {
+  content: "";
+}
